@@ -7,30 +7,31 @@ import Hello from "./components/Hello";
 import Message from "./components/Message";
 import Counter from "./components/Counter";
 import FunctionClick from "./components/FunctionClick";
-import ClassClick from "./components/ClassClick"
+import ClassClick from "./components/ClassClick";
 import EventBind from "./components/EventBind";
+import ParentComponent from "./components/ParentComponent";
 
 function App() {
   return (
     <div className="App">
-      
-      <EventBind />
+      <ParentComponent />
+      {/* <EventBind /> */}
       {/* <FunctionClick /> */}
       {/* <ClassClick /> */}
       {/* <Counter /> */}
       {/* <Message /> */}
-      {/* This is use of props in function components */}
 
+      {/* This is use of props in function components */}
       {/* <Greet name="Arjun" heroName="Iron Man">
         <p>This is a children tag!</p>
       </Greet>
+
       <Greet name="Ritesh" heroName="Hulk">
         <button>Action</button>
       </Greet>
       <Greet name="Yug" heroName="Captain America"/> */}
 
       {/* This is use of props in Class components */}
-
       {/* <Welcome name="Arjun" heroName="Iron Man"/>
       <Welcome name="Ritesh" heroName="Hulk"/>
       <Welcome name="Yug" heroName="Captain America"/> */}
