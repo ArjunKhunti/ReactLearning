@@ -1,19 +1,27 @@
 import React from "react";
-import './App.css'
-import Form from "./components/Form";
+import "./App.css";
+import FragmentDemo from "./components/Intermediate/FragmentDemo";
+import Table from "./components/Intermediate/Table";
+import PureComp from "./components/Intermediate/PureComp";
+import ParentComp from "./components/Intermediate/ParentComp";
+import RefsDemo from "./components/Intermediate/RefsDemo";
 
 function App() {
   return (
     <div className="App">
-      <Form />
+    <RefsDemo />
+      {/* <ParentComp /> */}
+      {/* <Table /> */}
+      {/* <FragmentDemo /> */}
+      {/* <Form /> */}
     </div>
   );
 }
 
 export default App;
 
-
-{/* <h1 className='error'>Error</h1>
+{
+  /* <h1 className='error'>Error</h1>
 <h1 className={styles.success}>Success</h1>
 <Inline /> 
 <StyleSheet primary={true}/> 
@@ -41,4 +49,5 @@ This is use of props in Class components
 <Welcome name="Ritesh" heroName="Hulk"/>
 <Welcome name="Yug" heroName="Captain America"/> 
 
-<Hello />   */}
+<Hello />   */
+}
