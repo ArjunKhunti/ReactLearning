@@ -5,11 +5,13 @@ import Table from "./components/Intermediate/Table";
 import PureComp from "./components/Intermediate/PureComp";
 import ParentComp from "./components/Intermediate/ParentComp";
 import RefsDemo from "./components/Intermediate/RefsDemo";
+import FRParentInput from "./components/Intermediate/FRParentInput";
 
 function App() {
   return (
     <div className="App">
-    <RefsDemo />
+      <FRParentInput />
+      {/* <RefsDemo /> */}
       {/* <ParentComp /> */}
       {/* <Table /> */}
       {/* <FragmentDemo /> */}
