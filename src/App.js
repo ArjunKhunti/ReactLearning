@@ -6,11 +6,30 @@ import PureComp from "./components/Intermediate/PureComp";
 import ParentComp from "./components/Intermediate/ParentComp";
 import RefsDemo from "./components/Intermediate/RefsDemo";
 import FRParentInput from "./components/Intermediate/FRParentInput";
+import PortalDemo from "./components/Intermediate/PortalDemo";
+import Hero from "./components/Intermediate/Hero";
+import ErrorBoundary from "./components/Intermediate/ErrorBoundary";
+import ClickCounter from "./components/Intermediate/ClickCounter";
+import HoverCounter from "./components/Intermediate/HoverCounter";
 
 function App() {
   return (
     <div className="App">
-      <FRParentInput />
+{/* 
+      <ClickCounter name="Arjun"/>
+      <HoverCounter /> */}
+      {/* <ErrorBoundary>
+        <Hero heroName="Batman" />
+      </ErrorBoundary>
+      <ErrorBoundary>
+        <Hero heroName="SuperMan" />
+      </ErrorBoundary>
+      <ErrorBoundary>
+        <Hero heroName="Joker" />
+      </ErrorBoundary> */}
+
+      <PortalDemo />
+      {/* <FRParentInput /> */}
       {/* <RefsDemo /> */}
       {/* <ParentComp /> */}
       {/* <Table /> */}
