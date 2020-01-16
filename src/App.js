@@ -18,7 +18,7 @@ function App() {
   return (
     <div className="App">
       {/* <UserProvider> */}
-        <ComponentA />
+      <ComponentA />
       {/* </UserProvider> */}
       {/* 
       <ClickCounter name="Arjun"/>

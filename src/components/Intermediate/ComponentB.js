@@ -6,7 +6,7 @@ export class ComponentB extends Component {
   render() {
     return (
       <div>
-          from Component B Hello {this.context}
+        from Component B Hello {this.context}
         <ComponentC />
       </div>
     );
