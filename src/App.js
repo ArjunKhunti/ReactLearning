@@ -11,11 +11,16 @@ import Hero from "./components/Intermediate/Hero";
 import ErrorBoundary from "./components/Intermediate/ErrorBoundary";
 import ClickCounter from "./components/Intermediate/ClickCounter";
 import HoverCounter from "./components/Intermediate/HoverCounter";
+import ComponentA from "./components/Intermediate/ComponentA";
+import { UserProvider } from "./UserContext";
 
 function App() {
   return (
     <div className="App">
-{/* 
+      {/* <UserProvider> */}
+        <ComponentA />
+      {/* </UserProvider> */}
+      {/* 
       <ClickCounter name="Arjun"/>
       <HoverCounter /> */}
       {/* <ErrorBoundary>
@@ -28,7 +33,7 @@ function App() {
         <Hero heroName="Joker" />
       </ErrorBoundary> */}
 
-      <PortalDemo />
+      {/* <PortalDemo /> */}
       {/* <FRParentInput /> */}
       {/* <RefsDemo /> */}
       {/* <ParentComp /> */}
